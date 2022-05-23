@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная Страница</title>
+</head>
+<body>
+    Приветствую, <TMPL_VAR NAME=LOGIN>!
+    <div>
+        <a href="http://127.0.0.1:8000/logout">Выйти</a>
+    </div>
+
+        <div><h3> Азия </h3>
+            <table>
+                <tbody>
+                <tr>
+                    <th>М</th>
+                    <th>Город / Агломерация</th>
+                    <th>Страна</th>
+                    <th>Население агломерации</th>
+                </tr>
+                <TMPL_LOOP NAME=ASIA_CITIES>
+                    <tr>
+                        <td><TMPL_VAR NAME=row_number></td>
+                        <td><TMPL_VAR NAME=city></td>
+                        <td><TMPL_VAR NAME=country></td>
+                        <td><TMPL_VAR NAME=population></td>
+                    </tr>
+                </TMPL_LOOP>
+                </tbody>
+            </table>
+        </div>
+
+        <div><h3> Америка </h3>
+            <table>
+                <tbody>
+                <tr>
+                    <th>М</th>
+                    <th>Город / Агломерация</th>
+                    <th>Страна</th>
+                    <th>Население агломерации</th>
+                </tr>
+                <TMPL_LOOP NAME=AMERICA_CITIES>
+                    <tr>
+                        <td><TMPL_VAR NAME=row_number></td>
+                        <td><TMPL_VAR NAME=city></td>
+                        <td><TMPL_VAR NAME=country></td>
+                        <td><TMPL_VAR NAME=population></td>
+                    </tr>
+                </TMPL_LOOP>
+                </tbody>
+            </table>
+        </div>
+
+        <div><h3> Африка </h3>
+            <table>
+                <tbody>
+                <tr>
+                    <th>М</th>
+                    <th>Город / Агломерация</th>
+                    <th>Страна</th>
+                    <th>Население агломерации</th>
+                </tr>
+                <TMPL_LOOP NAME=AFRICA_CITIES>
+                    <tr>
+                        <td><TMPL_VAR NAME=row_number></td>
+                        <td><TMPL_VAR NAME=city></td>
+                        <td><TMPL_VAR NAME=country></td>
+                        <td><TMPL_VAR NAME=population></td>
+                    </tr>
+                </TMPL_LOOP>
+                </tbody>
+            </table>
+        </div>
+
+        <div><h3> Европа </h3>
+            <table>
+                <tbody>
+                <tr>
+                    <th>М</th>
+                    <th>Город / Агломерация</th>
+                    <th>Страна</th>
+                    <th>Население агломерации</th>
+                </tr>
+                <TMPL_LOOP NAME=EUROPE_CITIES>
+                    <tr>
+                        <td><TMPL_VAR NAME=row_number></td>
+                        <td><TMPL_VAR NAME=city></td>
+                        <td><TMPL_VAR NAME=country></td>
+                        <td><TMPL_VAR NAME=population></td>
+                    </tr>
+                </TMPL_LOOP>
+                </tbody>
+            </table>
+        </div>
+</body>
+</html>

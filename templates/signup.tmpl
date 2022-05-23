@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+    <h2>Регистрация</h2>
+    <h4 style="color:red;">
+        <TMPL_VAR NAME=MESSAGE>
+    </h4>
+    <form method="post" action="http://127.0.0.1:8000/login">
+        <p>Логин<br/>
+            <input name="login" type="text" required>
+        </p>
+        <p>Почта<br/>
+            <input name="email" type="email" required>
+        </p>
+        <p>Пароль<br/>
+            <input name="password" type="password" required>
+        </p>
+        <input type="submit" value="Регистрация">
+        <div><a href="http://127.0.0.1:8000/login">Войти</a></div>
+    </form>
+</body>
+</html>

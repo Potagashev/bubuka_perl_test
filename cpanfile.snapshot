@@ -1,0 +1,490 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  CGI-4.54
+    pathname: L/LE/LEEJO/CGI-4.54.tar.gz
+    provides:
+      CGI 4.54
+      CGI::Carp 4.54
+      CGI::Cookie 4.54
+      CGI::File::Temp 4.54
+      CGI::HTML::Functions undef
+      CGI::MultipartBuffer 4.54
+      CGI::Pretty 4.54
+      CGI::Push 4.54
+      CGI::Util 4.54
+      Fh 4.54
+    requirements:
+      Carp 0
+      Config 0
+      Encode 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0.82
+      File::Temp 0.17
+      HTML::Entities 3.69
+      if 0
+      overload 0
+      parent 0.225
+      perl 5.008001
+      strict 0
+      utf8 0
+      warnings 0
+  CGI-Simple-1.280
+    pathname: M/MA/MANWAR/CGI-Simple-1.280.tar.gz
+    provides:
+      CGI::Simple 1.280
+      CGI::Simple::Cookie 1.280
+      CGI::Simple::Standard 1.280
+      CGI::Simple::Util 1.280
+    requirements:
+      ExtUtils::MakeMaker 0
+  DBD-Pg-3.15.1
+    pathname: T/TU/TURNSTEP/DBD-Pg-3.15.1.tar.gz
+    provides:
+      Bundle::DBD::Pg v3.15.1
+      DBD::Pg v3.15.1
+    requirements:
+      DBI 1.614
+      ExtUtils::MakeMaker 6.11
+      File::Temp 0
+      Test::More 0.88
+      Time::HiRes 0
+      version 0
+  DBI-1.643
+    pathname: T/TI/TIMB/DBI-1.643.tar.gz
+    provides:
+      Bundle::DBI 12.008696
+      DBD::DBM 0.08
+      DBD::DBM::Statement 0.08
+      DBD::DBM::Table 0.08
+      DBD::DBM::db 0.08
+      DBD::DBM::dr 0.08
+      DBD::DBM::st 0.08
+      DBD::ExampleP 12.014311
+      DBD::ExampleP::db 12.014311
+      DBD::ExampleP::dr 12.014311
+      DBD::ExampleP::st 12.014311
+      DBD::File 0.44
+      DBD::File::DataSource::File 0.44
+      DBD::File::DataSource::Stream 0.44
+      DBD::File::Statement 0.44
+      DBD::File::Table 0.44
+      DBD::File::TableSource::FileSystem 0.44
+      DBD::File::db 0.44
+      DBD::File::dr 0.44
+      DBD::File::st 0.44
+      DBD::Gofer 0.015327
+      DBD::Gofer::Policy::Base 0.010088
+      DBD::Gofer::Policy::classic 0.010088
+      DBD::Gofer::Policy::pedantic 0.010088
+      DBD::Gofer::Policy::rush 0.010088
+      DBD::Gofer::Transport::Base 0.014121
+      DBD::Gofer::Transport::corostream undef
+      DBD::Gofer::Transport::null 0.010088
+      DBD::Gofer::Transport::pipeone 0.010088
+      DBD::Gofer::Transport::stream 0.014599
+      DBD::Gofer::db 0.015327
+      DBD::Gofer::dr 0.015327
+      DBD::Gofer::st 0.015327
+      DBD::Mem 0.001
+      DBD::Mem::DataSource 0.001
+      DBD::Mem::Statement 0.001
+      DBD::Mem::Table 0.001
+      DBD::Mem::db 0.001
+      DBD::Mem::dr 0.001
+      DBD::Mem::st 0.001
+      DBD::NullP 12.014715
+      DBD::NullP::db 12.014715
+      DBD::NullP::dr 12.014715
+      DBD::NullP::st 12.014715
+      DBD::Proxy 0.2004
+      DBD::Proxy::RPC::PlClient 0.2004
+      DBD::Proxy::db 0.2004
+      DBD::Proxy::dr 0.2004
+      DBD::Proxy::st 0.2004
+      DBD::Sponge 12.010003
+      DBD::Sponge::db 12.010003
+      DBD::Sponge::dr 12.010003
+      DBD::Sponge::st 12.010003
+      DBDI 12.015129
+      DBI 1.643
+      DBI::Const::GetInfo::ANSI 2.008697
+      DBI::Const::GetInfo::ODBC 2.011374
+      DBI::Const::GetInfoReturn 2.008697
+      DBI::Const::GetInfoType 2.008697
+      DBI::DBD 12.015129
+      DBI::DBD::Metadata 2.014214
+      DBI::DBD::SqlEngine 0.06
+      DBI::DBD::SqlEngine::DataSource 0.06
+      DBI::DBD::SqlEngine::Statement 0.06
+      DBI::DBD::SqlEngine::Table 0.06
+      DBI::DBD::SqlEngine::TableSource 0.06
+      DBI::DBD::SqlEngine::TieMeta 0.06
+      DBI::DBD::SqlEngine::TieTables 0.06
+      DBI::DBD::SqlEngine::db 0.06
+      DBI::DBD::SqlEngine::dr 0.06
+      DBI::DBD::SqlEngine::st 0.06
+      DBI::Gofer::Execute 0.014283
+      DBI::Gofer::Request 0.012537
+      DBI::Gofer::Response 0.011566
+      DBI::Gofer::Serializer::Base 0.009950
+      DBI::Gofer::Serializer::DataDumper 0.009950
+      DBI::Gofer::Serializer::Storable 0.015586
+      DBI::Gofer::Transport::Base 0.012537
+      DBI::Gofer::Transport::pipeone 0.012537
+      DBI::Gofer::Transport::stream 0.012537
+      DBI::Profile 2.015065
+      DBI::ProfileData 2.010008
+      DBI::ProfileDumper 2.015325
+      DBI::ProfileDumper::Apache 2.014121
+      DBI::ProfileSubs 0.009396
+      DBI::ProxyServer 0.3005
+      DBI::ProxyServer::db 0.3005
+      DBI::ProxyServer::dr 0.3005
+      DBI::ProxyServer::st 0.3005
+      DBI::SQL::Nano 1.015544
+      DBI::SQL::Nano::Statement_ 1.015544
+      DBI::SQL::Nano::Table_ 1.015544
+      DBI::Util::CacheMemory 0.010315
+      DBI::Util::_accessor 0.009479
+      DBI::common 1.643
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      Test::Simple 0.90
+      perl 5.008001
+  Encode-Locale-1.05
+    pathname: G/GA/GAAS/Encode-Locale-1.05.tar.gz
+    provides:
+      Encode::Locale 1.05
+    requirements:
+      Encode 2
+      Encode::Alias 0
+      ExtUtils::MakeMaker 0
+      perl 5.008
+  ExtUtils-Config-0.008
+    pathname: L/LE/LEONT/ExtUtils-Config-0.008.tar.gz
+    provides:
+      ExtUtils::Config 0.008
+    requirements:
+      Data::Dumper 0
+      ExtUtils::MakeMaker 6.30
+      strict 0
+      warnings 0
+  ExtUtils-Helpers-0.026
+    pathname: L/LE/LEONT/ExtUtils-Helpers-0.026.tar.gz
+    provides:
+      ExtUtils::Helpers 0.026
+      ExtUtils::Helpers::Unix 0.026
+      ExtUtils::Helpers::VMS 0.026
+      ExtUtils::Helpers::Windows 0.026
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Spec::Functions 0
+      Text::ParseWords 3.24
+      perl 5.006
+      strict 0
+      warnings 0
+  ExtUtils-InstallPaths-0.012
+    pathname: L/LE/LEONT/ExtUtils-InstallPaths-0.012.tar.gz
+    provides:
+      ExtUtils::InstallPaths 0.012
+    requirements:
+      Carp 0
+      ExtUtils::Config 0.002
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      perl 5.006
+      strict 0
+      warnings 0
+  FCGI-ProcManager-0.28
+    pathname: A/AR/ARODLAND/FCGI-ProcManager-0.28.tar.gz
+    provides:
+      FCGI::ProcManager 0.28
+      FCGI::ProcManager::Constrained undef
+    requirements:
+      ExtUtils::MakeMaker 0
+  HTML-Parser-3.78
+    pathname: O/OA/OALDERS/HTML-Parser-3.78.tar.gz
+    provides:
+      HTML::Entities 3.78
+      HTML::Filter 3.78
+      HTML::HeadParser 3.78
+      HTML::LinkExtor 3.78
+      HTML::Parser 3.78
+      HTML::PullParser 3.78
+      HTML::TokeParser 3.78
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.52
+      HTML::Tagset 0
+      HTTP::Headers 0
+      IO::File 0
+      URI 0
+      URI::URL 0
+      XSLoader 0
+      strict 0
+  HTML-Tagset-3.20
+    pathname: P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
+    provides:
+      HTML::Tagset 3.20
+    requirements:
+      ExtUtils::MakeMaker 0
+  HTML-Template-2.97
+    pathname: S/SA/SAMTREGAR/HTML-Template-2.97.tar.gz
+    provides:
+      HTML::Template 2.97
+      HTML::Template::COND 2.97
+      HTML::Template::DEF 2.97
+      HTML::Template::ESCAPE 2.97
+      HTML::Template::FAQ undef
+      HTML::Template::JSESCAPE 2.97
+      HTML::Template::LOOP 2.97
+      HTML::Template::NOOP 2.97
+      HTML::Template::PRINTSCALAR 2.97
+      HTML::Template::URLESCAPE 2.97
+      HTML::Template::VAR 2.97
+    requirements:
+      CGI 0
+      Carp 0
+      Digest::MD5 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0.82
+      Scalar::Util 0
+  HTTP-Daemon-6.14
+    pathname: O/OA/OALDERS/HTTP-Daemon-6.14.tar.gz
+    provides:
+      HTTP::Daemon 6.14
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      HTTP::Date 6
+      HTTP::Request 6
+      HTTP::Response 6
+      HTTP::Status 6
+      IO::Socket::IP 0.32
+      LWP::MediaTypes 6
+      Module::Build::Tiny 0.034
+      Socket 0
+      perl 5.006
+      strict 0
+      warnings 0
+  HTTP-Date-6.05
+    pathname: O/OA/OALDERS/HTTP-Date-6.05.tar.gz
+    provides:
+      HTTP::Date 6.05
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Time::Local 1.28
+      Time::Zone 0
+      perl 5.006002
+      strict 0
+  HTTP-Message-6.36
+    pathname: O/OA/OALDERS/HTTP-Message-6.36.tar.gz
+    provides:
+      HTTP::Config 6.36
+      HTTP::Headers 6.36
+      HTTP::Headers::Auth 6.36
+      HTTP::Headers::ETag 6.36
+      HTTP::Headers::Util 6.36
+      HTTP::Message 6.36
+      HTTP::Request 6.36
+      HTTP::Request::Common 6.36
+      HTTP::Response 6.36
+      HTTP::Status 6.36
+    requirements:
+      Carp 0
+      Compress::Raw::Zlib 0
+      Encode 3.01
+      Encode::Locale 1
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      HTTP::Date 6
+      IO::Compress::Bzip2 2.021
+      IO::Compress::Deflate 0
+      IO::Compress::Gzip 0
+      IO::HTML 0
+      IO::Uncompress::Bunzip2 2.021
+      IO::Uncompress::Gunzip 0
+      IO::Uncompress::Inflate 0
+      IO::Uncompress::RawInflate 0
+      LWP::MediaTypes 6
+      MIME::Base64 2.1
+      MIME::QuotedPrint 0
+      URI 1.10
+      base 0
+      perl 5.008001
+      strict 0
+      warnings 0
+  IO-HTML-1.004
+    pathname: C/CJ/CJM/IO-HTML-1.004.tar.gz
+    provides:
+      IO::HTML 1.004
+    requirements:
+      Carp 0
+      Encode 2.10
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      perl 5.008
+  LWP-MediaTypes-6.04
+    pathname: O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz
+    provides:
+      LWP::MediaTypes 6.04
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      Scalar::Util 0
+      perl 5.006002
+      strict 0
+  LWP-attic-1.00
+    pathname: G/GA/GAAS/LWP-attic-1.00.tar.gz
+    provides:
+      LWP::IO undef
+      LWP::SecureSocket 1.03
+      LWP::Socket 1.24
+      LWP::attic undef
+    requirements:
+      ExtUtils::MakeMaker 0
+  Module-Build-Tiny-0.039
+    pathname: L/LE/LEONT/Module-Build-Tiny-0.039.tar.gz
+    provides:
+      Module::Build::Tiny 0.039
+    requirements:
+      CPAN::Meta 0
+      DynaLoader 0
+      Exporter 5.57
+      ExtUtils::CBuilder 0
+      ExtUtils::Config 0.003
+      ExtUtils::Helpers 0.020
+      ExtUtils::Install 0
+      ExtUtils::InstallPaths 0.002
+      ExtUtils::ParseXS 0
+      File::Basename 0
+      File::Find 0
+      File::Path 0
+      File::Spec::Functions 0
+      Getopt::Long 2.36
+      JSON::PP 2
+      Pod::Man 0
+      TAP::Harness::Env 0
+      perl 5.006
+      strict 0
+      warnings 0
+  TimeDate-2.33
+    pathname: A/AT/ATOOMIC/TimeDate-2.33.tar.gz
+    provides:
+      Date::Format 2.24
+      Date::Format::Generic 2.24
+      Date::Language 1.10
+      Date::Language::Afar 0.99
+      Date::Language::Amharic 1.00
+      Date::Language::Austrian 1.01
+      Date::Language::Brazilian 1.01
+      Date::Language::Bulgarian 1.01
+      Date::Language::Chinese 1.00
+      Date::Language::Chinese_GB 1.01
+      Date::Language::Czech 1.01
+      Date::Language::Danish 1.01
+      Date::Language::Dutch 1.02
+      Date::Language::English 1.01
+      Date::Language::Finnish 1.01
+      Date::Language::French 1.04
+      Date::Language::Gedeo 0.99
+      Date::Language::German 1.02
+      Date::Language::Greek 1.00
+      Date::Language::Hungarian 1.01
+      Date::Language::Icelandic 1.01
+      Date::Language::Italian 1.01
+      Date::Language::Norwegian 1.01
+      Date::Language::Occitan 1.04
+      Date::Language::Oromo 0.99
+      Date::Language::Romanian 1.01
+      Date::Language::Russian 1.01
+      Date::Language::Russian_cp1251 1.01
+      Date::Language::Russian_koi8r 1.01
+      Date::Language::Sidama 0.99
+      Date::Language::Somali 0.99
+      Date::Language::Spanish 1.00
+      Date::Language::Swedish 1.01
+      Date::Language::Tigrinya 1.00
+      Date::Language::TigrinyaEritrean 1.00
+      Date::Language::TigrinyaEthiopian 1.00
+      Date::Language::Turkish 1.0
+      Date::Parse 2.33
+      Time::Zone 2.24
+      TimeDate 1.21
+    requirements:
+      ExtUtils::MakeMaker 0
+  URI-5.10
+    pathname: O/OA/OALDERS/URI-5.10.tar.gz
+    provides:
+      URI 5.10
+      URI::Escape 5.10
+      URI::Heuristic 5.10
+      URI::IRI 5.10
+      URI::QueryParam 5.10
+      URI::Split 5.10
+      URI::URL 5.10
+      URI::WithBase 5.10
+      URI::data 5.10
+      URI::file 5.10
+      URI::file::Base 5.10
+      URI::file::FAT 5.10
+      URI::file::Mac 5.10
+      URI::file::OS2 5.10
+      URI::file::QNX 5.10
+      URI::file::Unix 5.10
+      URI::file::Win32 5.10
+      URI::ftp 5.10
+      URI::gopher 5.10
+      URI::http 5.10
+      URI::https 5.10
+      URI::ldap 5.10
+      URI::ldapi 5.10
+      URI::ldaps 5.10
+      URI::mailto 5.10
+      URI::mms 5.10
+      URI::news 5.10
+      URI::nntp 5.10
+      URI::nntps 5.10
+      URI::pop 5.10
+      URI::rlogin 5.10
+      URI::rsync 5.10
+      URI::rtsp 5.10
+      URI::rtspu 5.10
+      URI::sftp 5.10
+      URI::sip 5.10
+      URI::sips 5.10
+      URI::snews 5.10
+      URI::ssh 5.10
+      URI::telnet 5.10
+      URI::tn3270 5.10
+      URI::urn 5.10
+      URI::urn::isbn 5.10
+      URI::urn::oid 5.10
+    requirements:
+      Carp 0
+      Cwd 0
+      Data::Dumper 0
+      Encode 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      MIME::Base64 2
+      Net::Domain 0
+      Scalar::Util 0
+      constant 0
+      integer 0
+      overload 0
+      parent 0
+      perl 5.008001
+      strict 0
+      utf8 0
+      warnings 0
